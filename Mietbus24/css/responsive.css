@@ -1,0 +1,267 @@
+@media screen and (min-width:1200px){
+    .container{
+        width: 1140px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .container{
+        width: 960px;
+    }
+    .navbar li a{
+        padding: 20px 15px 20px 0;
+        font-size: 17px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .container{
+        width: 720px;
+    }
+    .navbar li a{
+        padding: 20px 10px 20px 0;
+        font-size: 12px;
+    }
+    .search-logo button{
+        width: 230px;
+    }
+    /* Banner */
+    .banner-form-2{
+        display: inline-block;
+        position: absolute;
+        top: 160px;
+        left: 100px;
+    }
+    .banner-form-2 input,button{
+        width: 130px;
+        padding: 15px 0px 15px 10px;
+        font-size: 18px;
+    }
+    .banner-form-2 span{
+        position: absolute;
+        top: 20px;
+        left: 200px;
+    }
+    /* main */
+    .main{
+        display: block;
+        margin: 0;
+    }
+    .container{
+        width:90%
+    }
+    .content-left iframe{
+        /* width: 550px; */
+        margin: 70px 0 59px 0;
+    }
+    .content-left h1{
+        text-align: center;
+    }
+    .content-left h6{
+        text-align: center;
+        /* font-size: 16.5px; */
+    }
+    .content-left p{
+        text-align: center;
+        /* font-size: 15px; */
+    }
+    .content-right{
+        width: 250px;
+    }
+    .content-right{
+        width: 100%px;
+        display: inline;
+        align-items: stretch;
+        text-align: center;
+    }
+    .box-2 button{
+        width: auto;
+        padding-right: 8px;
+    }
+    /* Footer */
+    .sub-part3 p{
+        font-size: 13.5px;
+    }
+    .sub-part3 button{
+        width: auto;
+        font-size: 16px;
+    } 
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .container{
+        width: 540px;
+    }
+    .head-images{
+        /* display: block; */
+        /* justify-items: center; */
+        align-items: center;
+    }
+    .head-icons {
+        display: block;
+        text-align: center;
+        margin-left: 50px;
+    }
+    
+    .nav-content{
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .search-logo  img{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    /* Banner */
+    .banner-form-2{
+        display: inline-block;
+        position: absolute;
+        top: 160px;
+        left: 80px;
+    }
+    .banner-form-2 input,button{
+        width: 100px;
+        padding: 15px 0px 15px 10px;
+        font-size: 15px;
+    }
+    .banner-form-2 span{
+        position: absolute;
+        top: 20px;
+        left: 160px;
+    }
+    /* main */
+    .main{
+        display: block;
+    }
+    .content-left iframe{
+    
+        width: 100%;
+        margin: 70px 0 59px 0;
+    }
+    .content-left h1{
+        text-align: center;
+    }
+    .content-left h6{
+        text-align: center;
+        font-size: 16.5px;
+    }
+    .content-left p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .content-right{
+        display: inline-block;
+        margin-top: 0;
+    }
+    .content-left h1{
+        font-size: 45px;
+    }
+     /* Left */
+     .content-right{
+        width: 100%px;
+        display: inline;
+        align-items: stretch;
+        text-align: center;
+    }
+    .box-2 button{
+        width: auto;
+        font-size: 17;
+        padding-right: 8px;
+    }
+    /* footer */
+    .sub-part3{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .sub-part3 button{
+        width: auto;
+        font-size: 16px;
+    } 
+   
+}
+@media screen and (max-width:575px){
+    .container{
+        width: auto;
+    }
+    .head-images{
+        display: block;
+        /* justify-items: center; */
+        align-items: stretch;
+    }
+    .head-logo{
+        text-align: center;
+    }
+    .head-icons{
+        margin: 0;
+        padding: 0 0 10px 0;
+        display: block;
+        text-align: center;
+    }
+    
+    .nav-content{
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    /* Banner */
+    .banner-form-2{
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+    }
+    .banner-form-2 input,button{
+        width: 300px;
+        margin-bottom: 5px;
+        padding: 15px 0px 15px 10px;
+        font-size: 22px;
+    }
+    .banner-form-2 span{
+        position: absolute;
+        top: 145px;
+        left: 160px;
+    }
+    /* main */
+    .main{
+        display: block;
+    }
+    .content-left iframe{
+        width: 100%;
+        margin: 70px 0 59px 0;
+    }
+    .content-left h1{
+        text-align: center;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .content-left h6{
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .content-left p{
+        text-align: center;
+        font-size: 15px;
+        line-height: 27px;
+    }
+    /* Left */
+    .content-right{
+        width: 100%px;
+        display: inline;
+        align-items: stretch;
+        text-align: center;
+    }
+    /* footer */
+    .sub-part3{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .copy-right{
+        flex-direction: column;
+        text-align: center;line-height: 25px;
+    }
+}
